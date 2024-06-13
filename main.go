@@ -1,7 +1,18 @@
 package main
 
-import "fmt"
+import (
+	"log"
 
+	"github.com/joho/godotenv"
+)
+
+func init() {
+	log.SetPrefix("Go-Eth: ")
+
+	if err := godotenv.Load(".env"); err != nil {
+		log.Fatalf("Error loading .env file")
+	}
+}
 func main() {
-	fmt.Println("online and working fine")
+	log.Println("online and working fine")
 }
