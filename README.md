@@ -1,6 +1,10 @@
 # Golang & Ethereum
 
+### Golang playground for Ethereum development
+
 -   Hardhat required
+
+---
 
 <strong>Step 1:</strong>
 
@@ -24,4 +28,12 @@ or
 
 ```
 make run
+```
+
+---
+
+### API
+
+```
+make api
 ```
