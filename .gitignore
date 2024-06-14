@@ -5,3 +5,6 @@ bin
 .env
 
 go.sum
+
+artifacts
+cache
