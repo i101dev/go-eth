@@ -6,3 +6,9 @@ run: build
 
 test:
 	@go test -v ./...
+
+
+hardhat:
+	@cd hardhat && npx hardhat node
+
+.PHONY: hardhat
