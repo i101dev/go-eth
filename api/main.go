@@ -25,10 +25,6 @@ func (bcs *BlockchainServer) PrintChain(w http.ResponseWriter, req *http.Request
 	case http.MethodGet:
 
 		w.Header().Add("Content-Type", "application/json")
-
-		fmt.Println("Printing chain")
-
-		// ----------------------------------------------------------
 		w.Write([]byte("Printing chain"))
 
 	default:

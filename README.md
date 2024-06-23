@@ -6,7 +6,7 @@
 
 ---
 
-<strong>Step 1:</strong>
+<strong>Step 1: Open terminal</strong>
 
 ```
 cd hardhat && npx hardhat node
@@ -18,7 +18,7 @@ or
 make hardhat
 ```
 
-<strong>Step 2:</strong>
+<strong>Step 2: Open separate terminal</strong>
 
 ```
 go run .
